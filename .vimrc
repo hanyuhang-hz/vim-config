@@ -38,5 +38,10 @@ endfunction
 
 " 4 保存项目相关配置
 " **表示所有子目录
-set path=.,/usr/include/** 
-
+" set path=.,/usr/include/** 
+set path=.
+" test project
+if filereadable("/home/hanyuhang/github/vim-config-install/test/test.vim")
+    source /home/hanyuhang/github/vim-config-install/test/test.vim
+endif
+ 

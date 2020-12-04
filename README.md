@@ -8,7 +8,7 @@ vim-config-install
 
 
 
-[1]安装卸载
+[1] 安装卸载
 1 安装:
 ./install.sh
 2 卸载:
@@ -16,16 +16,19 @@ vim-config-install
 
 
 
-[2] vim配置的快捷键
-,ee	新窗口打开~/.vimrc
-.vimrc配置为修改时自动重新加载
+[3] vimrc初步
+,ee			新窗口打开~/.vimrc
+.vimrc配置为一旦.vimrc被修改时会自动重新加载
 
 
-set path后:
-	gf		打开要搜索的文件
-	ctrl + ^	返回
-	ctrl + w + f	水平分割窗口打开要搜索的的文件
-	:find xxx	在path路径下搜索xxx文件
-	
+
+[4] 保存项目相关配置 
+set path:
+gf			打开要搜索的文件
+ctrl + ^		返回
+ctrl + w + f		水平分割窗口打开要搜索的的文件
+:find xxx		在path路径下搜索xxx文件
+filereadable		保存test项目相关vim配置
+
 
 
