@@ -32,3 +32,12 @@ filereadable		保存test项目相关vim配置
 
 
 
+[5] 使用标签tag文件
+ctags -R *
+vim -t test1		查找test1函数
+ctrl + ]		前进	
+ctrl + t		回退
+
+
+
+
