@@ -45,3 +45,13 @@ if filereadable("/home/hanyuhang/github/vim-config-install/test/test.vim")
     source /home/hanyuhang/github/vim-config-install/test/test.vim
 endif
  
+
+" 6 使用taglist插件
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Auto_Open = 1
+
+
+
+ 

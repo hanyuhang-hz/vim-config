@@ -40,4 +40,14 @@ ctrl + t		回退
 
 
 
+[6] 使用taglist插件
+只有在有tags的目录下vim打开文件才会显示taglist窗口
+taglist窗口快捷键:
+<CR>			Enter键跳到tag定义的位置
+o			在一个新的窗口中显示tag对应的函数
+<Space>			显示tag对应的函数原型
+s			更改排序方式
+x			taglist窗口放大和缩小
+
+
 

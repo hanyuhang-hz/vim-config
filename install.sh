@@ -9,8 +9,11 @@ else
 	cp ./.vimrc ~/
 fi
 
-
+# taglist.zip
+cp dir/taglist_46.zip ~/.vim
+cd ~/.vim
+unzip taglist_46.zip
+tree ~/.vim
 
 
 echo "install finished!!!"
-
