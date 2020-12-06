@@ -50,8 +50,24 @@ endif
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
 let Tlist_Show_One_File = 1
 let Tlist_Exit_OnlyWindow = 1
-let Tlist_Auto_Open = 1
+" let Tlist_Auto_Open = 1
+
+
+" 7 文件浏览和winmanager
+" netrw setting
+let g:netrw_winsize = 50
+map <silent> <leader>fe :Sexplore!<cr> 
+" winmanager
+let g:winManagerWindowLayout = "BufExplorer,FileExplorer|TagList"
+let g:winManagerWidth = 50
+let g:defaultExplorer = 0
+nmap <C-W><C-F> :FirstExplorerWindow<cr>
+nmap <C-W><C-B> :BottomExplorerWindow<cr>
+nmap <silent> <leader>wm :WMToggle<cr> 
 
 
 
  
+
+
+

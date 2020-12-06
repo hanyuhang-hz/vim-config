@@ -16,7 +16,15 @@ if [ -f ~/.vim/taglist_46.zip ];then
 	rm -rf ~/.vim/taglist_46.zip
 fi
 
+# bufexplorer-7.4.21.zip 
+if [ -f ~/.vim/bufexplorer-7.4.21.zip ];then
+	rm -rf ~/.vim/bufexplorer-7.4.21.zip
+fi
 
+# winmanager.zip
+if [ -f ~/.vim/winmanager.zip ];then
+	rm -rf ~/.vim/winmanager.zip
+fi
 
 
 if [ -d ~/.vim/doc ];then
@@ -25,7 +33,10 @@ fi
 if [ -d ~/.vim/plugin ];then
 	rm -rf ~/.vim/plugin
 fi
-tree ~/.vim
 
+
+echo " "
+echo "tree ~/.vim:"
+tree ~/.vim
 
 echo "uninstall finished!!!"
