@@ -82,5 +82,13 @@ nmap <silent> <leader>lk :LUTags<cr>
 nmap <silent> <leader>lw :LUWalk<cr>
 
 
+" 9 文件类型检测
+" 自动缩进
+autocmd FileType c,cpp,h,hpp set shiftwidth=4 | set expandtab
+
+
+
+
+
 
 

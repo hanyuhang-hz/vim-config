@@ -2,6 +2,7 @@
 
 void test1() {
     test_1();
+    filetype;
 }
 
 void test2() {
