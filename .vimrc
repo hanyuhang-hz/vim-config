@@ -87,8 +87,15 @@ nmap <silent> <leader>lw :LUWalk<cr>
 autocmd FileType c,cpp,h,hpp set shiftwidth=4 | set expandtab
 
 
-
-
+" 10 语法高亮 
+syntax enable
+" mark setting
+nmap <silent> <leader>hl <Plug>MarkSet
+vmap <silent> <leader>hl <Plug>MarkSet
+nmap <silent> <leader>hh <Plug>MarkClear
+vmap <silent> <leader>hh <Plug>MarkClear
+nmap <silent> <leader>hr <Plug>MarkRegex
+vmap <silent> <leader>hr <Plug>MarkRegex
 
 
 

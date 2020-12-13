@@ -19,4 +19,5 @@ int hyh3333() {
 
 void main() {
 
+   return ;
 }

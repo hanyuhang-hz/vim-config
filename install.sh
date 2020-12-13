@@ -26,6 +26,11 @@ unzip lookupfile-1.8.zip
 unzip genutils-2.5.zip
 
 
+# mark.vim
+cd ${CUR_DIR}
+cp dir/plugin/mark.vim ~/.vim/plugin
+
+
 
 echo " "
 echo "tree ~/.vim:"
