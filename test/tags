@@ -5,7 +5,9 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 han	test.c	/^int han() {$/;"	f
+hyh3333	test.c	/^int hyh3333() {$/;"	f
 main	test.c	/^void main() {$/;"	f
 test1	test.c	/^void test1() {$/;"	f
 test2	test.c	/^void test2() {$/;"	f
 test_1	test1.c	/^void test_1() {$/;"	f
+xxxx	xxxx.c	/^void xxxx() {$/;"	f

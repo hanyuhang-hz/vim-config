@@ -12,6 +12,10 @@ int han() {
     return 0;
 }
 
+int hyh3333() {
+    return -1;
+}
+
 void main() {
 
 }

@@ -9,13 +9,13 @@ vim-config-install
 
 
 
-[1] 安装卸载
-
-1 安装:
+[1] 安装
 
 ./install.sh
 
-2 卸载:
+
+
+[2] 卸载
 
 ./uninstall.sh
 
@@ -86,8 +86,6 @@ x			taglist窗口放大和缩小
 
 <CR>			Enter键进入，ctrl+^返回
 
--			返回上级目录
-
 c			切换vim当前目录
 
 d			创建目录
@@ -107,6 +105,21 @@ ctrl + w + b		切换到左下窗口
 ctrl + w + w 		切换窗口
 
 
+
+
+[8] lookupfile插件查询
+
+F5			打开/关闭lookupfile窗口
+
+Enter			回车打开第一个匹配项
+
+ctrl + n		在下拉列表向下选择
+
+ctrl + p		在下拉列表向上选择
+
+,lk			在当前目录中查找文件(默认)
+
+,ll			在指定目录中查找文件
 
 
 

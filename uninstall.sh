@@ -26,12 +26,29 @@ if [ -f ~/.vim/winmanager.zip ];then
 	rm -rf ~/.vim/winmanager.zip
 fi
 
+# lookupfile-1.8.zip
+if [ -f ~/.vim/lookupfile-1.8.zip ];then
+	rm -rf ~/.vim/lookupfile-1.8.zip
+fi
+
+# genutils-2.5.zip
+if [ -f ~/.vim/genutils-2.5.zip ];then
+	rm -rf ~/.vim/genutils-2.5.zip
+fi
+
+
+
 
 if [ -d ~/.vim/doc ];then
 	rm -rf ~/.vim/doc
 fi
+
 if [ -d ~/.vim/plugin ];then
 	rm -rf ~/.vim/plugin
+fi
+
+if [ -d ~/.vim/autoload ];then
+	rm -rf ~/.vim/autoload
 fi
 
 

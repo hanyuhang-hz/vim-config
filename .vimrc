@@ -66,8 +66,21 @@ nmap <C-W><C-B> :BottomExplorerWindow<cr>
 nmap <silent> <leader>wm :WMToggle<cr> 
 
 
+" 8 lookupfile插件
+" lookupfile
+let g:LookupFile_MinPatLength = 2               "最少输入2个字符才开始查找
+let g:LookupFile_PreserveLastPattern = 0        "不保存上次查找的字符串
+let g:LookupFile_PreservePatternHistory = 1     "保存查找历史
+let g:LookupFile_AlwaysAcceptFirst = 1          "回车打开第一个匹配项目
+let g:LookupFile_AllowNewFiles = 0              "不允许创建不存在的文件
 
+if filereadable("/home/hanyuhang/github/vim-config-install/test/tags")
+    let g:LookupoFile_TagExpr = "/home/hanyuhang/github/vim-config-install/test/tags"
+endif
  
+nmap <silent> <leader>lk :LUTags<cr>
+nmap <silent> <leader>lw :LUWalk<cr>
+
 
 
 
