@@ -1,12 +1,13 @@
 #include "ioctl.h"
+#include "hyh.hpp"
 
 void test1() {
     test_1();
-    filetype;
+    get();
 }
 
 void test2() {
-
+    get();
 }
 
 int han() {

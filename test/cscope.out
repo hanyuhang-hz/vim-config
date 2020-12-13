@@ -1,0 +1,151 @@
+cscope 15 $HOME/github/vim-config-install/test -q 0000000018 0000000584
+	@hyh/Test.c
+
+1 
+	g‹¡
+
+
+	@hyh/hyh.cpp
+
+2 
+	~"hyh.hµ
+"
+
+3 
+	~<io¡»am
+>
+
+5 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+7 
+	$g‘
+(
+a
+) {
+
+8 
+cout
+ << "‹¡" <<
+’dl
+;
+
+10 
+	}
+}
+
+	@hyh/hyh.hpp
+
+3 
+g‘
+(
+a
+);
+
+	@hyh/hyh.java
+
+1 
+	g‹¡
+
+
+	@test.c
+
+1 
+	~"ioùl.h
+"
+
+2 
+	~"hyh.hµ
+"
+
+4 
+	$‹¡1
+() {
+
+5 
+	`‹¡_1
+();
+
+6 
+	`g‘
+();
+
+7 
+	}
+}
+
+9 
+	$‹¡2
+() {
+
+10 
+	`g‘
+();
+
+11 
+	}
+}
+
+13 
+	$hª
+() {
+
+15 
+	}
+}
+
+17 
+	$hyh3333
+() {
+
+19 
+	}
+}
+
+21 
+	$maš
+() {
+
+24 
+	}
+}
+
+	@test1.c
+
+2 
+	$‹¡_1
+() {
+
+4 
+	}
+}
+
+	@xxxx.c
+
+1 
+	$xxxx
+() {
+
+3 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+7
+70
+hyh/Test.c
+hyh/hyh.cpp
+hyh/hyh.hpp
+hyh/hyh.java
+test.c
+test1.c
+xxxx.c
