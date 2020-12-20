@@ -1,5 +1,5 @@
-# vim-config-install
-vim-config-install
+# vim-config
+vim-config
 
 
 
