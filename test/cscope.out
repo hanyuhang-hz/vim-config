@@ -1,4 +1,4 @@
-cscope 15 $HOME/github/vim-config-install/test -q 0000000018 0000000584
+cscope 15 $HOME/github/vim-config-install/test -q 0000000022 0000000667
 	@hyh/Test.c
 
 1 
@@ -39,6 +39,26 @@ cout
 	}
 }
 
+12 þas 
+	cGass
+ {
+
+13 
+	mpublic
+:
+
+14 
+g‘
+();
+
+15 
+	m´iv©e
+:
+
+16 
+m
+;
+
 	@hyh/hyh.hpp
 
 3 
@@ -76,42 +96,46 @@ a
 ();
 
 7 
+‹¡
+
+
+8 
 	}
 }
 
-9 
+10 
 	$‹¡2
 () {
 
-10 
+11 
 	`g‘
 ();
 
-11 
+12 
 	}
 }
 
-13 
+14 
 	$hª
 () {
 
-15 
+16 
 	}
 }
 
-17 
+18 
 	$hyh3333
 () {
 
-19 
+20 
 	}
 }
 
-21 
+22 
 	$maš
 () {
 
-24 
+25 
 	}
 }
 

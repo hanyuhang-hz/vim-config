@@ -17,6 +17,7 @@ fi
 # winmanager.zip
 # lookupfile-1.8.zip
 # genutils-2.5.zip
+# omnicppcomplete-0.41.zip
 cp dir/*.zip ~/.vim
 cd ~/.vim
 unzip taglist_46.zip
@@ -24,6 +25,7 @@ unzip bufexplorer-7.4.21.zip
 unzip winmanager.zip
 unzip lookupfile-1.8.zip
 unzip genutils-2.5.zip
+unzip omnicppcomplete-0.41.zip
 
 
 # mark.vim

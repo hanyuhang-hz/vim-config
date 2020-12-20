@@ -118,7 +118,19 @@ nmap <silent> <leader>fg :cs find g <C-R>=expand("<cword>")<CR><CR>
 nmap <silent> <leader>fd :cs find d <C-R>=expand("<cword>")<CR><CR>
 nmap <silent> <leader>fc :cs find c <C-R>=expand("<cword>")<CR><CR>
 nmap <silent> <leader>ft :cs find t <C-R>=expand("<cword>")<CR><CR>
+" conflicts with ,fe
 nmap <silent> <leader>fp :cs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <silent> <leader>ff :cs find f <C-R>=expand("<cfile>")<CR><CR>
+
+
+" 13 智能补全
+set completeopt=longest,menu
+" C++补全
+filetype plugin indent on
+set nocp
+
+
+
+
 
 

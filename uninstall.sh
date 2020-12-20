@@ -36,6 +36,11 @@ if [ -f ~/.vim/genutils-2.5.zip ];then
 	rm -rf ~/.vim/genutils-2.5.zip
 fi
 
+# omnicppcomplete-0.41.zip 
+if [ -f ~/.vim/omnicppcomplete-0.41.zip ];then
+	rm -rf ~/.vim/omnicppcomplete-0.41.zip
+fi
+
 
 
 
@@ -51,9 +56,13 @@ if [ -d ~/.vim/autoload ];then
 	rm -rf ~/.vim/autoload
 fi
 
+if [ -d ~/.vim/after ];then
+	rm -rf ~/.vim/after
+fi
+
+
 
 echo " "
 echo "tree ~/.vim:"
 tree ~/.vim
-
 echo "uninstall finished!!!"

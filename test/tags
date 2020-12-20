@@ -4,11 +4,17 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-get	hyh/hyh.cpp	/^void get(int a) {$/;"	f
-han	test.c	/^int han() {$/;"	f
-hyh3333	test.c	/^int hyh3333() {$/;"	f
-main	test.c	/^void main() {$/;"	f
-test1	test.c	/^void test1() {$/;"	f
-test2	test.c	/^void test2() {$/;"	f
-test_1	test1.c	/^void test_1() {$/;"	f
-xxxx	xxxx.c	/^void xxxx() {$/;"	f
+Gass	./hyh/hyh.cpp	/^class Gass {$/;"	c	file:
+Gass::get	./hyh/hyh.cpp	/^        int get(int);$/;"	p	class:Gass	file:	access:public	signature:(int)
+Gass::m	./hyh/hyh.cpp	/^        int m;$/;"	m	class:Gass	file:	access:private
+get	./hyh/hyh.cpp	/^        int get(int);$/;"	p	class:Gass	file:	access:public	signature:(int)
+get	./hyh/hyh.cpp	/^void get(int a) {$/;"	f	signature:(int a)
+get	./hyh/hyh.hpp	/^void get(int a);$/;"	p	signature:(int a)
+han	./test.c	/^int han() {$/;"	f
+hyh3333	./test.c	/^int hyh3333() {$/;"	f
+m	./hyh/hyh.cpp	/^        int m;$/;"	m	class:Gass	file:	access:private
+main	./test.c	/^void main() {$/;"	f
+test1	./test.c	/^void test1() {$/;"	f
+test2	./test.c	/^void test2() {$/;"	f
+test_1	./test1.c	/^void test_1() {$/;"	f
+xxxx	./xxxx.c	/^void xxxx() {$/;"	f

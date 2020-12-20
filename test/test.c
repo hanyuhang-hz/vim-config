@@ -4,6 +4,7 @@
 void test1() {
     test_1();
     get();
+    test
 }
 
 void test2() {

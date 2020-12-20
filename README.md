@@ -163,3 +163,12 @@ ctrl + t		自动缩进
 
 
 
+[13] 智能补全
+
+C:ctrl + x,ctrl + o	C目前输入"test"后需要ctrl+x,ctrl+o
+
+C++:自动		C++输入"Gass g;g."后自动补全
+
+
+
+
