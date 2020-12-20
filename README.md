@@ -3,9 +3,7 @@ vim-config-install
 
 
 
-说明:
-
-一键安装vim配置，整理常用的vim配置
+说明:一键安装vim配置，整理常用的vim配置
 
 
 
@@ -175,6 +173,18 @@ C++:自动		C++输入"Gass g;g."后自动补全
 [14] 自动补全
 
 TAB                     TAB自动补全
+
+
+
+
+[15] 移动
+
+文件中移动              gg,G,ctrl+g
+
+移动到指定字符          fx,Fx,3fx,tx,Tx,3tx
+
+相对光标滚屏            zt,zz,zb
+
 
 
 
