@@ -130,7 +130,6 @@ filetype plugin indent on
 set nocp
 
 
-
-
-
-
+" 14 自动补全
+let g:SuperTabRetainCompletionType = 2
+let g:SuperTabDefaultCompletionType = "<C-N>"

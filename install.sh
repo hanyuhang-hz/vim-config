@@ -29,13 +29,14 @@ unzip omnicppcomplete-0.41.zip
 
 
 # mark.vim
+# supertab.vim
 cd ${CUR_DIR}
 cp dir/plugin/mark.vim ~/.vim/plugin
+cp dir/plugin/supertab.vim ~/.vim/plugin
 
 
 
 echo " "
 echo "tree ~/.vim:"
 tree ~/.vim
-
 echo "install finished!!!"
