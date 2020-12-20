@@ -1,5 +1,5 @@
-# vim-config-install
-vim-config-install
+# vim-config
+vim-config
 
 
 
@@ -61,11 +61,11 @@ ctrl + t		回退
 
 taglist窗口快捷键:
 
-<CR>			Enter键跳到tag定义的位置
+Enter			Enter键跳到tag定义的位置
 
 o			在一个新的窗口中显示tag对应的函数
 
-<Space>			显示tag对应的函数原型
+Space			显示tag对应的函数原型
 
 s			更改排序方式
 
@@ -82,7 +82,7 @@ x			taglist窗口放大和缩小
 
 文件浏览窗口快捷键:
 
-<CR>			Enter键进入，ctrl+^返回
+Enter			Enter键进入，ctrl+^返回
 
 c			切换vim当前目录
 

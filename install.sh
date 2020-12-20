@@ -1,4 +1,6 @@
 #!/bin/bash
+VERSION="vim-config 1.0.0"
+echo "VERSION:${VERSION}"
 
 CUR_DIR=`pwd`
 echo "CUR_DIR:${CUR_DIR}"
