@@ -55,11 +55,11 @@ let Tlist_Exit_OnlyWindow = 1
 
 " 7 文件浏览和winmanager
 " netrw setting
-let g:netrw_winsize = 50
+let g:netrw_winsize = 30
 map <silent> <leader>fe :Sexplore!<cr> 
 " winmanager
 let g:winManagerWindowLayout = "BufExplorer,FileExplorer|TagList"
-let g:winManagerWidth = 50
+let g:winManagerWidth = 30
 let g:defaultExplorer = 0
 nmap <C-W><C-F> :FirstExplorerWindow<cr>
 nmap <C-W><C-B> :BottomExplorerWindow<cr>

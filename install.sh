@@ -20,6 +20,10 @@ fi
 # lookupfile-1.8.zip
 # genutils-2.5.zip
 # omnicppcomplete-0.41.zip
+if [ ! -d ~/.vim ];then
+	echo "~/.vim not exit!mkdir one!"
+	mkdir ~/.vim
+fi
 cp dir/*.zip ~/.vim
 cd ~/.vim
 unzip taglist_46.zip
