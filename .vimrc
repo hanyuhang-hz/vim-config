@@ -133,3 +133,9 @@ set nocp
 " 14 自动补全
 let g:SuperTabRetainCompletionType = 2
 let g:SuperTabDefaultCompletionType = "<C-N>"
+
+" 15 使用剪贴板
+" ctrl+c:复制当前单词
+nmap <C-C> viw"+y
+" ctrl+v:黏贴替换其他单词
+nmap <C-V> viwdh"+p
